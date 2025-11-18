@@ -1,11 +1,4 @@
-//
-// Tencent is pleased to support the open source community by making trpc-agent-go available.
-//
-// Copyright (C) 2025 Tencent.  All rights reserved.
-//
-// trpc-agent-go is licensed under the Apache License Version 2.0.
-//
-//
+
 
 package main
 
@@ -198,6 +191,7 @@ func checkDockerAvailable() error {
 
 // 	return stdout.String(), stderr.String(), exitCode, err
 // }
+
 
 // Bash tool implementation with container isolation.
 // executeBash executes a bash command in a secure Docker container.
@@ -402,14 +396,3 @@ func floatPtr(f float64) *float64 {
 	return &f
 }
 
-// This example demonstrates how to integrate tRPC agent orchestration
-// with LLM-based tools, providing a simple HTTP server for manual
-// testing. It is intended as a reference for developers looking to build
-// custom LLM agents with tool support in Go.
-//
-// The calculator tool supports basic arithmetic operations, while the
-// time tool provides current time information for a given timezone.
-// The bash tool executes shell commands in a secure container, and the 
-// python tool executes Python code snippets in a secure container.
-//
-// The code is structured for clarity and ease of extension.

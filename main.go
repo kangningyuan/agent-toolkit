@@ -1,22 +1,3 @@
-//
-// Tencent is pleased to support the open source community by making trpc-agent-go available.
-//
-// Copyright (C) 2025 Tencent.  All rights reserved.
-//
-// trpc-agent-go is licensed under the Apache License Version 2.0.
-//
-//
-
-// Package main provides a standalone CLI demo showcasing how to wire the
-// trpc-agent-go orchestration layer with an LLM agent that exposes two simple tools:
-// a calculator and a time query. It starts an HTTP server compatible with ADK Web UI
-// for manual testing.
-//
-// This file demonstrates how to set up a simple LLM agent with custom tools
-// (calculator and time query) and expose it via an HTTP server compatible with the
-// ADK Web UI. It is intended for manual testing and as a reference for integrating
-// tRPC agent orchestration with LLM-based tools.
-//
 // The example covers:
 // - Model and tool setup
 // - Agent configuration
@@ -28,8 +9,6 @@
 //	go run main.go -model gpt-4 -addr :9090
 //
 // The server will listen on :8080 by default and use deepseek-chat model.
-//
-// Author: Tencent, 2025
 //
 // -----------------------------------------------------------------------------
 package main
