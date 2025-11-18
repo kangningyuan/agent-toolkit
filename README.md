@@ -1,3 +1,4 @@
+English | [中文](README_zh.md)
 # Agent Toolkit
 
 A powerful AI agent toolkit built on the [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) framework.  
