@@ -46,6 +46,11 @@ chmod +x test-setup.sh && ./test-setup.sh
 
 3. **Start the Agent Toolkit service**
 ```bash
+# Set up your LLM (in an OpenAI-compatible format)
+export OPENAI_API_KEY="your-api-key-here"
+export OPENAI_BASE_URL="your-base-url-here"
+
+# run
 go run examples/agent-toolkit/main.go examples/agent-toolkit/tools.go
 ```
 

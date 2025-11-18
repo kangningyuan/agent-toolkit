@@ -51,6 +51,10 @@ chmod +x test-setup.sh
 
 3. **启动 Agent Toolkit 服务**
 ```bash
+# 设置你的LLM（采用兼容OPENAI的格式）
+export OPENAI_API_KEY="your-api-key-here"
+export OPENAI_BASE_URL="your-base-url-here"
+
 # 在 trpc-agent-go 项目根目录或相应模块路径下运行
 go run examples/agent-toolkit/main.go examples/agent-toolkit/tools.go
 ```
