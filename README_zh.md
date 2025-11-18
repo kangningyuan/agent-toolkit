@@ -2,6 +2,8 @@
 
 一个功能强大的 AI 代理工具包，基于 [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) 框架构建，集成了多种实用工具（计算器、时间查询、Bash和Python执行），支持安全容器化执行环境，并与 [Google Agent Development Kit Web UI](https://github.com/google/adk-web) 完全兼容。
 
+<img src="./image/cover.png">
+
 ## 功能特性
 
 ### 🛠️ 核心工具

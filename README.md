@@ -3,6 +3,8 @@
 A powerful AI agent toolkit built on the [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) framework.  
 It integrates practical utilities (calculator, time query, Bash & Python execution), runs inside secure containers, and is fully compatible with the [Google Agent Development Kit Web UI](https://github.com/google/adk-web).
 
+<img src="./image/cover.png">
+
 ## Features
 
 ### 🛠️ Core Tools
@@ -16,6 +18,7 @@ It integrates practical utilities (calculator, time query, Bash & Python executi
 - **Resource limits** – memory & CPU caps to prevent abuse  
 - **Network isolation** – no outbound network access  
 - **Read-only filesystem** – stops any permanent modification  
+
 
 ## Quick Start
 
